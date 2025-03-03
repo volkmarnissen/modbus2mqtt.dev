@@ -27,11 +27,15 @@
 		{
 			"name": "specification.shared",
 			"path": "specification.shared"
-		}		
+		},
+		{
+			"name": "hassio-addon-repository",
+			"path": "hassio-addon-repository"
+		}			
 	],
 	"settings": {
 		"jest.disabledWorkspaceFolders": [
-			"m2m", "specification.shared", "server.shared", "angular", "modbus2mqtt.dev"
+			"m2m", "specification.shared", "server.shared", "angular", "modbus2mqtt.dev","hassio-addon-repository"
 		]
 	}
 }
